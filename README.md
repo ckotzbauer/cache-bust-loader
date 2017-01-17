@@ -1,4 +1,4 @@
-# Static Asset Hash Replace Webpack Plugin
+# Cache-Bust Loader
 
 
 [![NPM](https://img.shields.io/npm/v/cache-bust-loader.svg)](https://www.npmjs.com/package/cache-bust-loader)
