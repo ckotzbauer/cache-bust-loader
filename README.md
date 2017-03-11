@@ -1,5 +1,7 @@
 # Cache-Bust Loader
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/code-chris/cache-bust-loader.svg)](https://greenkeeper.io/)
+
 
 [![NPM](https://img.shields.io/npm/v/cache-bust-loader.svg)](https://www.npmjs.com/package/cache-bust-loader)
 
