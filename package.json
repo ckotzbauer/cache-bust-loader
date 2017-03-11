@@ -1,6 +1,6 @@
 {
   "name": "cache-bust-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Adds cache-bust query params to referenced files",
   "main": "index.js",
   "repository": {
