@@ -41,7 +41,7 @@ function replacePathsInFile(source, expression, paramName, paramValue) {
 module.exports = function(source) {
   this.cacheable();
 
-  var query = utils.parseQuery(this.query);
+  var query = utils.getOptions(this);
 
   if (!query.name) {
     throw new Error("No name set!");
