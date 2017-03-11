@@ -1,6 +1,6 @@
 {
   "name": "cache-bust-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Adds cache-bust query params to referenced files",
   "main": "index.js",
   "repository": {
@@ -13,14 +13,17 @@
     "bust",
     "busting",
     "cache-bust",
-	"cache-busting",
-	"loader",
-	"webpack-loader"
+    "cache-busting",
+    "loader",
+    "webpack-loader"
   ],
   "author": "Christian Kotzbauer <christian.kotzbauer@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/code-chris/cache-bust-loader/issues"
   },
-  "homepage": "https://github.com/code-chris/cache-bust-loader#readme"
+  "homepage": "https://github.com/code-chris/cache-bust-loader#readme",
+  "dependencies": {
+    "loader-utils": "~1.0.3"
+  }
 }
