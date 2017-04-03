@@ -38,7 +38,7 @@ function replacePathsInFile(source, expression, paramName, paramValue) {
   return source;
 }
 
-module.exports = function(source) {
+module.exports = function(source, map) {
   this.cacheable();
 
   var query = utils.getOptions(this);
@@ -49,9 +49,10 @@ module.exports = function(source) {
 
   if (!query.value) {
     // No busting
-    return source;
+    this.callback(null, source, map);
+    return;
   }
 
   var expression = generateExpression(query.types, query.name);
-  return replacePathsInFile(source, expression, query.name, query.value);
+  this.callback(null, replacePathsInFile(source, expression, query.name, query.value), map);
 };
