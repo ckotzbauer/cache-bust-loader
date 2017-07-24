@@ -32,6 +32,7 @@ function replacePathsInFile(source, expression, paramName, paramValue) {
 
     var rawEnding = "\\" + match.replace("\?", "").replace("\\", "");
     var query = rawEnding === "\\.woff" ? rawEnding + "(?!2)" : rawEnding;
+    query = query + "(?!:)";
     source = source.replace(new RegExp(query, "g"), replacement);
   }
 
