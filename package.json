@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/code-chris/cache-bust-loader.git"
+    "url": "git+https://github.com/ckotzbauer/cache-bust-loader.git"
   },
   "keywords": [
     "webpack",
@@ -20,9 +20,9 @@
   "author": "Christian Kotzbauer <christian.kotzbauer@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/code-chris/cache-bust-loader/issues"
+    "url": "https://github.com/ckotzbauer/cache-bust-loader/issues"
   },
-  "homepage": "https://github.com/code-chris/cache-bust-loader#readme",
+  "homepage": "https://github.com/ckotzbauer/cache-bust-loader#readme",
   "dependencies": {
     "loader-utils": "~1.0.3"
   }

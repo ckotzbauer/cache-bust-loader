@@ -1,7 +1,6 @@
 # Cache-Bust Loader
 
 [![NPM](https://img.shields.io/npm/v/cache-bust-loader.svg)](https://www.npmjs.com/package/cache-bust-loader)
-[![Greenkeeper badge](https://badges.greenkeeper.io/code-chris/cache-bust-loader.svg)](https://greenkeeper.io/)
 
 
 This Webpack loader adds a cache-bust query parameter to referenced files in your source code.
@@ -60,5 +59,5 @@ The `name` describes the name of the query parameter, the `value` the string whi
 which you want to be cache-busted. Split them with a semicolon.
 
 
-[License](https://github.com/code-chris/cache-bust-loader/blob/master/LICENSE)
+[License](https://github.com/ckotzbauer/cache-bust-loader/blob/master/LICENSE)
 ------
