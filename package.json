@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/ckotzbauer/cache-bust-loader#readme",
   "dependencies": {
-    "loader-utils": "~1.0.3"
+    "loader-utils": "~2.0.0"
   }
 }
