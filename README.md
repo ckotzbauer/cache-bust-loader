@@ -59,5 +59,5 @@ The `name` describes the name of the query parameter, the `value` the string whi
 which you want to be cache-busted. Split them with a semicolon.
 
 
-[License](https://github.com/ckotzbauer/cache-bust-loader/blob/master/LICENSE)
+[License](https://github.com/ckotzbauer/cache-bust-loader/blob/main/LICENSE)
 ------
