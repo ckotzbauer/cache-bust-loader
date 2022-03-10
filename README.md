@@ -2,6 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/cache-bust-loader.svg)](https://www.npmjs.com/package/cache-bust-loader)
 
+## DEPRECATED: This project is not maintained anymore.
 
 This Webpack loader adds a cache-bust query parameter to referenced files in your source code.
 
